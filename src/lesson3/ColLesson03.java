@@ -27,7 +27,6 @@ public class ColLesson03{
 				index++;
 				System.out.println("英単語と日本語をスペースで区切って入力して下さい。 \"e\"で終了します。");
 				input = sc.nextLine();
-
 			}
 		}
 		catch(Exception e){
@@ -35,7 +34,6 @@ public class ColLesson03{
 			System.out.println("登録制限を 越えました。登録済みのデータは以下になります。");
 			for(i = 0; i < index; i++ ){
 				words.toString();
-				System.out.println(words[i]);
 			}
 		}
 		finally{
