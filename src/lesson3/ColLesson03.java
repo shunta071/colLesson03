@@ -30,7 +30,6 @@ public class ColLesson03{
 			}
 		}
 		catch(Exception e){
-			e.printStackTrace();
 			System.out.println("登録制限を 越えました。登録済みのデータは以下になります。");
 			for(i = 0; i < index; i++ ){
 				words.toString();
